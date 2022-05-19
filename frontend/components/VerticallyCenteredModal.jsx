@@ -8,7 +8,7 @@ import modalStyles from '../styles/Modal.module.css'
 
 export const VerticallyCenteredModal = props => {
   const user = useContext(AppContext)
-  const [timeValue, setTimeValue] = useState();
+  const [timeValue, setTimeValue] = useState('');
 
   const onCloseModal = () => {
     setTimeValue('')
@@ -24,7 +24,7 @@ export const VerticallyCenteredModal = props => {
       end_time: getTimeValue[1].trim(),
       doctor_id: data.value.doctor_id
     }
-    
+    setTimeValue('')
     props.onSave(appointment);
   }
 
@@ -52,6 +52,8 @@ export const VerticallyCenteredModal = props => {
     times = transformTimeInterval(data.value.start_time, data.value.end_time, data.value.duration);
 
   }
+
+  console.log('timeValue', timeValue);
 
   return (
     <Modal
