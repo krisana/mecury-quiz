@@ -17,7 +17,7 @@ Start up docker and run
 ./vendor/bin/sail up
 ```
 
-Setup your local domain
+Setup your local domain \
 Go to ``` /private/etc/hosts ``` and add ``` 127.0.0.1 api.medcury.quiz ``` in file
 
 install packages
