@@ -15,6 +15,10 @@ a {
   box-sizing: border-box;
 }
 
+.homepage {
+  text-align: center;
+}
+
 .go-github span {
   margin-right: 0.4rem;
 }
