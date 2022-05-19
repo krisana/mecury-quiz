@@ -1,0 +1,1 @@
+export const ApiBaseURL = 'http://api.medcury.quiz/api';

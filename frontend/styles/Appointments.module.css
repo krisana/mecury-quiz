@@ -1,0 +1,63 @@
+.timeButton {
+  font-size: 16px !important;
+  border: 1px solid rgba(69, 143, 255, .2) !important;
+  padding: 1.2rem 1rem;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 8px 20px rgb(0 102 255 / 12%);
+  border-radius: 4px;
+  color: #0147a3;
+  margin-bottom: 0.5rem;
+}
+.timeButton:hover {
+  background: #fff;
+  color: #0147a3;
+}
+.timeButton:focus,
+.timeButton:active {
+  outline: none;
+  box-shadow: none;
+  background: none;
+  color: #0147a3;
+}
+
+.dateButton {
+  width: 100%;
+  border: none;
+  padding: 0;
+  box-shadow: none !important;
+  outline: none !important;
+  background: none !important;
+}
+
+.dateButton .input-group,
+.dateButton .input-group input  {
+  z-index: -1;
+}
+
+.boxHeader {
+  background-color: #0147a3;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.boxHeader h5 {
+  margin-bottom: 0;
+}
+.boxBody {
+  background-color: #ffffff;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid #eeeeee;
+  min-height: 15rem;
+}
+.boxDisabled {
+  opacity: 0.6;
+  color: #d2d2d2f9;
+}
+.boxBodyDisabled {
+  background-color: #f9f9f9;
+}

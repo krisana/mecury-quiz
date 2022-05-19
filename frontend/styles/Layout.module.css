@@ -1,0 +1,40 @@
+.main {
+  padding: 3rem 0;
+}
+
+.logo {
+  height: 100%;
+}
+
+.mainButton,
+.mainLabel {
+  font-size: 16px !important;
+  border: 1px solid rgba(69, 143, 255, .2) !important;
+  padding: 1rem 0.5rem;
+  background: #fff;
+  box-shadow: 0 8px 20px rgb(0 102 255 / 12%);
+  border-radius: 4px;
+  color: #0147a3;
+  margin-bottom: 0.5rem;
+  min-width: 8rem;
+}
+.mainLabel {
+  margin-left: 0.5rem;
+}
+.mainLabel:first-of-type {
+  margin-left: 0;
+}
+.mainButton:hover,
+.mainLabel:hover {
+  background: #fff;
+  color: #0147a3;
+}
+.mainButton:focus,
+.mainButton:active,
+.mainLabel:focus,
+.mainLabel:active {
+  outline: none;
+  box-shadow: none;
+  background: none;
+  color: #0147a3;
+}

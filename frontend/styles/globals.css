@@ -1,0 +1,68 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.go-github span {
+  margin-right: 0.4rem;
+}
+
+.go-github a{
+  color: #0147a3;
+}
+
+.date-range-picker input,
+.date-range-picker span {
+  outline: none !important;
+  box-shadow: none !important;
+  z-index: -1;
+}
+
+.calendar-range .popover {
+  max-width: 334px;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  display: none;
+}
+
+input {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 8px 20px rgb(0 102 255 / 12%);
+  border-radius: 4px;
+  color: #0147a3;
+}
+
+.login-form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.btn-check:disabled+.btn, .btn-check[disabled]+.btn {
+  background: #eeeeee;
+  color: #111111;
+}
+
+.selectTime .modal-header .btn-close {
+  display:none;
+}
+
+@media (min-width: 576px) {
+  .selectTime .modal-dialog {
+    max-width: 570px;
+  }
+}

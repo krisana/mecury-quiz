@@ -1,0 +1,7 @@
+.badge {
+  padding: 0.5rem 0.5rem;
+  min-width: 3rem;
+  color: #0147a3;
+  background: #e7edff;
+  border-radius: 10px;
+}
