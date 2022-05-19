@@ -23,4 +23,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 After project started \
 You will see the homepage \
 If you are not login please login \
-You see user access at [mecury-quiz](https://github.com/krisana/mecury-quiz)
+You can see user access at [mecury-quiz](https://github.com/krisana/mecury-quiz)
