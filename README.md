@@ -5,7 +5,7 @@
 Click Link below go to the project
 
 [Backend](https://github.com/krisana/mecury-quiz/tree/main/backend) \
-<!-- [Frontend](https://github.com/krisana/maqe-frontend-developer/tree/main/frontend-template-and-styling) -->
+[Frontend](https://github.com/krisana/mecury-quiz/tree/main/frontend)
 
 ### User for test
 
