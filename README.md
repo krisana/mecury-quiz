@@ -1,7 +1,13 @@
-# MEDcury Quiz
+# MEDcury Homework Challenges
+
+### Applying as a Full-stack Developer
+
+Click Link below go to the project
+
+[Backend](https://github.com/krisana/mecury-quiz/tree/main/backend) \
+<!-- [Frontend](https://github.com/krisana/maqe-frontend-developer/tree/main/frontend-template-and-styling) -->
 
 ### User for test
-
 
 นายกร
 ```
