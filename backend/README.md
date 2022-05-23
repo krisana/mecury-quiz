@@ -5,6 +5,16 @@ Project stack is Laravel
 
 ## How to install and run
 
+Fist, Install vendor
+```
+docker run --rm \
+    -u "$(id -u):$(id -g)" \
+    -v $(pwd):/opt \
+    -w /opt \
+    laravelsail/php80-composer:latest \
+    composer install --ignore-platform-reqs
+```    
+
 Setup ```env```
 
 ```
