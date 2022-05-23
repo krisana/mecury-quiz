@@ -24,11 +24,11 @@ cp .env.local .env
 Start up docker and run
 
 ```
-./vendor/bin/sail up
+./vendor/bin/sail up -d
 ```
 
 Setup your local domain \
-Go to ``` /private/etc/hosts ``` and add ``` 127.0.0.1 api.medcury.quiz ``` in file
+Go to ```sudo vi /private/etc/hosts ``` and add ``` 127.0.0.1 api.medcury.quiz ``` in file and save
 
 install packages
 ```
